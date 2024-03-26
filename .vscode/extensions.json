@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "formulahendry.code-runner",
+        "mikestead.dotenv",
+        "esbenp.prettier-vscode",
+        "tabnine.tabnine-vscode"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "unboxed-solana-course",
+    "version": "1.0.0",
+    "description": "Solana Development Course By Unboxed (soldev.app)",
+    "main": "index.js",
+    "repository": "https://github.com/aciDrums7/unboxed-solana-course.git",
+    "author": "aciDrums7 <edoardo.carradori.96@gmail.com>",
+    "license": "MIT",
+    "private": false,
+    "dependencies": {
+        "@solana-developers/helpers": "^2.2.0",
+        "@solana/web3.js": "^1.91.1",
+        "dotenv": "^16.4.5",
+        "esrun": "^3.2.26"
+    },
+    "devDependencies": {
+        "husky": ">=6",
+        "lint-staged": ">=10",
+        "prettier": "^3.2.5"
+    },
+    "lint-staged": {
+        "*.{js,css,md}": "prettier --write"
+    },
+    "scripts": {
+        "prepare": "husky install"
+    }
+}
