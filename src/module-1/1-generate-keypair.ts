@@ -6,7 +6,7 @@ const generatedKeypair = Keypair.generate()
 
 console.log(`\n✅ Generated keypair!`)
 console.log(`The generated public key is: `, generatedKeypair.publicKey.toBase58())
-console.log(`The generated private key is: `, generatedKeypair.secretKey)
+console.log(`The generated private key is: `, uint8ArrayToHex(generatedKeypair.secretKey))
 
 function uint8ArrayToHex(uint8Array: Uint8Array) {
     return Array.from(uint8Array)
