@@ -1,4 +1,5 @@
 {
+    "type": "commonjs",
     "name": "unboxed-solana-course",
     "version": "1.0.0",
     "description": "Solana Development Course By Unboxed (soldev.app)",
@@ -16,7 +17,9 @@
     "devDependencies": {
         "husky": ">=6",
         "lint-staged": ">=10",
-        "prettier": "^3.2.5"
+        "prettier": "^3.2.5",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.3"
     },
     "lint-staged": {
         "*.{js,css,md}": "prettier --write"
